@@ -1,0 +1,20 @@
+<resources>
+    <item type="id" name="lab_controls" />
+    <item type="id" name="nav_host" />
+    <item type="id" name="screen" />
+    <item type="id" name="up" />
+    <item type="id" name="open_cart" />
+    <item type="id" name="open_camera" />
+    <item type="id" name="open_tea" />
+    <item type="id" name="renderer_toggle" />
+    <item type="id" name="broken_toggle" />
+    <item type="id" name="reset" />
+    <item type="id" name="quantity_compose" />
+    <item type="id" name="quantity_legacy" />
+    <item type="id" name="quantity_input" />
+    <item type="id" name="confirm" />
+    <item type="id" name="cancel" />
+    <item type="id" name="reload" />
+    <item type="id" name="accepted" />
+    <item type="id" name="problem" />
+</resources>

@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:name=".ShopApplication" android:allowBackup="false"
+        android:label="Common Goods" android:supportsRtl="true"
+        android:theme="@style/Theme.NavigationLab">
+        <activity android:name=".MainActivity" android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <nav-graph android:value="@navigation/shop_graph" />
+        </activity>
+    </application>
+</manifest>

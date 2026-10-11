@@ -1,0 +1,29 @@
+<resources>
+    <string name="catalog">Shop</string>
+    <string name="cart">Cart</string>
+    <string name="open_cart">Open cart</string>
+    <string name="use_compose">Use Compose quantity editor</string>
+    <string name="broken_return">Append Cart after Confirm (broken)</string>
+    <string name="reset">Reset lab</string>
+    <string name="edit_product">Edit %1$s quantity</string>
+    <string name="cart_line">%1$s · Accepted: %2$d</string>
+    <string name="up">Up</string>
+    <string name="quantity_label">Quantity (0 to 5)</string>
+    <string name="accepted">Accepted: %1$d</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel edit</string>
+    <string name="leave">Leave editor</string>
+    <string name="reload">Review current quantity</string>
+    <string name="saving">Saving…</string>
+    <string name="saved">Saved. This editor entry has finished.</string>
+    <string name="invalid_quantity">Enter a whole quantity from 0 to 5.</string>
+    <string name="load_failed">Could not load the cart. Open the editor again.</string>
+    <string name="save_failed">Could not save. Your draft is still here; retry Confirm.</string>
+    <string name="conflict">The accepted quantity changed. Review it before confirming.</string>
+    <string name="unknown_product">This product is unavailable.</string>
+    <string name="navigation_failed">Saved, but no parent could be opened. Use system Back.</string>
+    <string name="loading">Loading cart…</string>
+    <string name="cart_load_failed">Could not load the cart. Return to Shop and retry.</string>
+    <string name="reset_failed">Could not reset the lab. Try Reset again.</string>
+    <string name="catalog_intro">Camera and Tea are in your local cart. Open cart to change a quantity.</string>
+</resources>

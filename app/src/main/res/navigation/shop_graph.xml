@@ -1,0 +1,24 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/shop_graph" app:startDestination="@id/catalog">
+    <fragment android:id="@+id/catalog"
+        android:name="staff.android.navigation.CatalogFragment"
+        android:label="@string/catalog">
+        <action android:id="@+id/open_cart_flow" app:destination="@id/cart_graph" />
+    </fragment>
+    <navigation android:id="@+id/cart_graph" app:startDestination="@id/cart">
+        <fragment android:id="@+id/cart"
+            android:name="staff.android.navigation.CartFragment"
+            android:label="@string/cart">
+            <action android:id="@+id/edit_quantity" app:destination="@id/quantity" />
+        </fragment>
+        <fragment android:id="@+id/quantity"
+            android:name="staff.android.navigation.QuantityFragment"
+            android:label="Quantity">
+            <argument android:name="productId" app:argType="string" />
+            <argument android:name="renderer" app:argType="string" android:defaultValue="compose" />
+            <argument android:name="brokenReturn" app:argType="boolean" android:defaultValue="false" />
+            <deepLink app:uri="shoplab://cart/edit/{productId}" />
+        </fragment>
+    </navigation>
+</navigation>

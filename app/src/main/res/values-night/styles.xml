@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.NavigationLab" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">@font/google_sans_regular</item>
+        <item name="android:colorAccent">#B5C4FF</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+</resources>
